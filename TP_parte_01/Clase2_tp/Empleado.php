@@ -1,4 +1,5 @@
 <?php
+include ""
 
 //Campos
 private $_legajo;
@@ -22,5 +23,16 @@ public function getSueldo($_sueldo)
 {
     return $this->$_sueldo;
 }
+
+public function Hablar($_idiona)
+{
+    return $this->$_idiona;
+}
+
+public function toString()
+{
+    return parent::toString
+}
+
 
 ?>
