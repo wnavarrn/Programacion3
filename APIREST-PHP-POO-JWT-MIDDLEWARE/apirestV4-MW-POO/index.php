@@ -30,6 +30,8 @@ $app->group('/cd', function () {
  
   $this->get('/', \cdApi::class . ':traerTodos')->add(\MWparaCORS::class . ':HabilitarCORSTodos');
  
+  //$this->get('/', \cdApi::class . ':traerTodos')->add(\MWparaAutentificar::class . ':ValidaUsuarioDB');
+  
   $this->get('/{id}', \cdApi::class . ':traerUno')->add(\MWparaCORS::class . ':HabilitarCORSTodos');
 
   $this->post('/', \cdApi::class . ':CargarUno');
@@ -38,6 +40,7 @@ $app->group('/cd', function () {
 
   $this->put('/', \cdApi::class . ':ModificarUno');
      
-})->add(\MWparaAutentificar::class . ':VerificarUsuario')->add(\MWparaCORS::class . ':HabilitarCORS8080');
+//})->add(\MWparaAutentificar::class . ':VerificarUsuario')->add(\MWparaCORS::class . ':HabilitarCORS8080');
+})->add(\MWparaAutentificar::class . ':GetIp')/*->add(\MWparaAutentificar::class . ':ValidaUsuarioDB')*/->add(\MWparaCORS::class . ':HabilitarCORS8080');
 
 $app->run();

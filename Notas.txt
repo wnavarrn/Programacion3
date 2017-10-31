@@ -1,0 +1,39 @@
+https://github.com/slimphp/slim/wiki
+
+EJEMPLOS MIDDLEWARE
+
+https://github.com/slimphp/Slim/wiki/Middleware-for-Slim-Framework-v3.x
+
+tabla estacionamiento
+
+Estacionados - operaciones como quiera.
+ID
+PATENTE
+COLOR
+FOTO id-patente-NombreDeFoto
+
+IDdelEmpleado
+FechaHoraIngreso no NULL niguno
+
+
+Nulos
+
+IdEmpleadoSalida
+FechaHoraSalida
+Importe
+
+TiempoTrascurido ->Escuando sale el vehiculo
+
+Otra Tabla Empleado
+ID
+Nombre
+Clave
+Perfil
+Mail
+Turno
+Sexo
+Perfil usuario-admin
+
+
+
+
