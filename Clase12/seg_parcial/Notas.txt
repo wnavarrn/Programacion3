@@ -1,0 +1,17 @@
+DELETE borrar uno
+
+Para borrar DELETE y x-www-form-urlencode
+localhost/Estacionamiento/apirest/empleado/
+
+GET traer uno
+localhost/Estacionamiento/apirest/empleado/2
+
+POST guardar
+
+localhost/Estacionamiento/apirest/empleado/
+check form data
+
+PUT modificar
+body
+localhost/Estacionamiento/apirest/empleado/
+application/x-www-form-urlencoded

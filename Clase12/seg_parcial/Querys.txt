@@ -1,0 +1,2 @@
+INSERT INTO `empleado` (`Id`, `Nombre`, `Clave`, `Perfil`, `Mail`, `Turno`, `Sexo`) VALUES (NULL, 'Victor', 'Clave2', 'Usuario', 'victor@gmail.com', 'Mañana', 'Masculino');
+
