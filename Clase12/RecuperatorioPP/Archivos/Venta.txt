@@ -1,0 +1,8 @@
+{"email":"fede@hotmail.com","sabor":"frutilla","tipo":"crema","precio":"50","cantidad":"1"}
+{"email":"fede@hotmail.com","sabor":"vainilla","tipo":"crema","precio":"50","cantidad":"1"}
+{"email":"fede@gmail.com","sabor":"vainilla","tipo":"crema","precio":"50","cantidad":null}
+{"email":"fede@gmail.com","sabor":"vainilla","tipo":"crema","precio":"50","cantidad":"1"}
+{"email":null,"sabor":null,"tipo":null,"precio":null,"cantidad":null}
+{"email":null,"sabor":null,"tipo":null,"precio":null,"cantidad":null}
+{"email":"fede@gmail.com","sabor":"vainilla","tipo":"crema","precio":"50","cantidad":"1"}
+{"email":"fede@gmail.com","sabor":"vainilla","tipo":"crema","precio":"50","cantidad":"1"}
